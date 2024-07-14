@@ -10,3 +10,6 @@ Steps to run the project:
 6. Move to "models/yolov5" directory and use the command for training the model using ```python train.py --img 640 --batch 8 --epochs 50 --data ../idd.yaml --cfg ../yolov5n.yaml --device cuda:0 --workers 8```
 7. Place your custom images in the "\Intel_project\data\own_images" folder and run the ```python detect.py --source ../../data/custom_test_images/test1.jpg --weights runs/train/exp5/weights/best.pt --conf 0.4 command```
    Results can be found at "Intel_project\models\yolov5\runs\detect" folder.
+
+If you want to skip training the model and directly want the weights, you can download them from here https://drive.google.com/drive/u/2/folders/1Y0vQQMJKmqm3D95ip5AoVhjh9QPhnQa1
+and place it into the runs folder.
