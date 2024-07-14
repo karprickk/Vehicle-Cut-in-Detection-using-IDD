@@ -3,7 +3,7 @@ Vehicle Cut-in detection using IDD
 Steps to run the project:
 
 1. Clone or download the repository.
-2. Extract downloaded dataset and place it in the "Intel_project\data folder"
+2. Extract downloaded dataset and place it in the "Intel_project\data" folder.
 3. While in the Intel_project folder, create a virtual environment named yolov5-env using the following command ```- python -m venv yolov5-env```
 4. To activate the environment, type ```yolov5-env\Scripts\activate``` in your terminal.
 5. Run the Dataset_modification.py.
