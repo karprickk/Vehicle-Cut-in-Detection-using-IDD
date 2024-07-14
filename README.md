@@ -12,4 +12,4 @@ Steps to run the project:
    Results can be found at "Intel_project\models\yolov5\runs\detect" folder.
 
 If you want to skip training the model and directly want the weights, you can download them from here https://drive.google.com/drive/u/2/folders/1Y0vQQMJKmqm3D95ip5AoVhjh9QPhnQa1
-and place it into the runs folder.
+and place it into the "Intel_project\models\yolov5\runs\train" folder.
